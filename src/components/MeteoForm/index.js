@@ -47,4 +47,12 @@ const MeteoForm = ({ defaultCity }) => {
   );
 };
 
+MeteoForm.propTypes = {
+  defaultCity: PropTypes.string,
+};
+
+MeteoForm.defaultProps = {
+  defaultCity: "Paris",
+};
+
 export default MeteoForm;
