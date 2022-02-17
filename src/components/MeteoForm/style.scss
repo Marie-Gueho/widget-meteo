@@ -1,0 +1,31 @@
+.widget-meteo {
+    width: 300px;
+    padding: 1rem 2rem 3rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #476f78a6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    p {
+        margin: 0;
+    }
+    &__temp {
+        font-size: 2rem;
+    }
+    &__city {
+        font-size: 3rem;
+    }
+    &__form {
+        position: absolute;
+        bottom: 325px;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    &__input {
+        padding: 1rem;
+        border-radius: 10px;;
+    }
+}
